@@ -1,0 +1,152 @@
+@media(max-width:1440px){
+body{
+   
+    background-image: url('images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+ background-color: hsl(225, 100%, 94%);
+ font-size: 16px;
+ 
+}
+
+img{
+    width:100%;
+    height:30vh;
+    object-fit: cover;
+    border-radius: 15px 15px  0px 0px;
+   
+}
+
+#container{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    margin-bottom: 50px;
+}
+
+.card{
+    background:white;
+   
+
+    border-radius: 15px;
+}
+.pad-white{
+
+    padding: 20px;
+    padding-bottom: 140px;
+    height: 40vh;
+}
+
+h3{
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+}
+
+p{
+    color:grey;
+    text-align: center;
+    padding: 6px  20px 10px 20px;
+
+}
+.tag{
+    padding: 10 20px;
+   
+    
+}
+
+#tag-bg{
+    background: hsl(225, 100%, 98%);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+    
+    
+
+
+.btn{
+    background: blue;
+    font-size: 12px;
+    color:#fff;
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
+    box-shadow: inset;
+    border: 0px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+.btn:hover{
+    background: rgb(70, 70, 180);
+    color:white;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+.cancel{
+    background: #fff;
+   
+    margin-bottom: 10px;
+    color:#282828;
+    display: block;
+    margin: 0 auto;
+    margin-top:15px;
+    border: 0;
+    padding:  15px 25px 15px 25px;
+}
+.cancel:hover{
+   padding:  15px 25px 15px 25px;
+    font-size: 12px;
+    background: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    border:0px;
+    display: block;
+    margin: 10 10 auto;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color:black;}
+    
+    #annual img{
+     max-width: 42px;
+     height: 42px;
+
+    }
+   
+#change{
+    color:hsl(245, 75%, 52%);
+    margin-left:50px;
+    text-decoration: underline;
+
+}
+
+#annual{
+   margin-top: 10px;
+   
+    display: flex;
+}
+
+#price{
+    margin-top: 60px;
+  margin-left: -100px;
+}
+}
+/*MOBILE */
+@media (max-width:720px){
+    .pad-white{
+
+        padding: 20px;
+        padding-bottom: 170px;
+        height: 40vh;}
+        .cancel:hover{
+            background: hsl(225, 100%, 98%);
+        }
+
+        .cancel
+        {
+            background: #fff;
+        }
+        
+    }
